@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+/*
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    max-width: 100vw;
+    width: 100vw;
+    height: 80vh;
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header__logomenu-logo {
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+
+.header__logomenu-menu {
+    float: right;
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+.header__logomenu-menu-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logomenu-menu-ul-li {
+    list-style: none;
+}
+
+.header__logomenu-menu-ul-li-a {
+    font-family: "Alata", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.header__title {
+    width: -moz-fit-content;
+    width: fit-content;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    border-width: thin;
+    margin-left: 7rem;
+    margin-top: 10rem;
+}
+
+.header__title-h1 {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    font-size: 6rem;
+    margin: 1.5rem 10rem 1.5rem 1.5rem;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.main__imageText-image {
+    width: 50vw;
+    height: 65vh;
+    margin: 6rem 0 3rem 5.5rem;
+    z-index: 0;
+}
