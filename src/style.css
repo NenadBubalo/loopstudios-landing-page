@@ -18,7 +18,7 @@ header {
     max-width: 100vw;
     width: 100vw;
     height: 80vh;
-    background-image: url("./images/desktop/image-hero.jpg");
+    background-image: url("../images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -101,7 +101,6 @@ main {
     position: absolute;
     bottom: 3rem;
     left: 65rem;
-
 }
 
 .main__imageText-text-h1 {
@@ -143,14 +142,6 @@ main {
     cursor: pointer;
 }
 
-.main__creationsButton-button:focus {
-    box-shadow: 10px 10px 10px 40px inset;
-}
-
-.main__creationsButton-button: {
-    color: yellow;
-}
-
 .button__text {
     font-family: "Alata", sans-serif;
     text-transform: uppercase;
@@ -159,17 +150,24 @@ main {
     margin: 0.2rem 3rem 0.2rem 3rem;
 }
 
-.main__creationsImg {
+.main__creationsImg,
+.main__creationsImg-underDiv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 2rem 2rem;
     grid-auto-flow: row;
     grid-template-areas:
-    ". . . ."
     ". . . .";
     width: 100%;
     height: auto;
+}
+
+.main__creationsImg {
+    padding: 0 25rem 2rem 10rem;
+}
+
+.main__creationsImg-underDiv {
     padding: 0 25rem 10rem 10rem;
 }
 

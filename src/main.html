@@ -8,7 +8,7 @@
 <body>
     <header>
         <div class="header__logomenu">
-            <img class="header__logomenu-logo" src="images/logo.svg">
+            <img class="header__logomenu-logo" src="../images/logo.svg">
             <div class="header__logomenu-menu">
                 <ul class="header__logomenu-menu-ul">
                     <li class="header__logomenu-menu-ul-li"><a href="#About" class="header__logomenu-menu-ul-li-a">About</a></li>
@@ -27,7 +27,7 @@
     </header>
     <main>
         <div class="main__imageText">
-            <img src="images/desktop/image-interactive.jpg" class="main__imageText-image">
+            <img src="../images/desktop/image-interactive.jpg" class="main__imageText-image">
             <div class="main__imageText-text">
                 <h1 class="main__imageText-text-h1">
                     The leader in<br> interactive VR
@@ -40,24 +40,26 @@
         </div>
         <div class="main__creationsButton">
             <h1 class="main__creationsButton-h1">our creations</h1>
-            <button type="button" name="button" class="main__creationsButton-button">
-                <p class="button__text">see all</p>
+            <button type="button" name="button" class="main__creationsButton-button" id="button">
+                <p class="button__text" id="button__text">see all</p>
             </button>
         </div>
         <div class="main__creationsImg">
-            <img class="main__creationsImg-image" src="images/desktop/image-deep-earth.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-night-arcade.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-soccer-team.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-grid.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-from-above.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-pocket-borealis.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-curiosity.jpg">
-            <img class="main__creationsImg-image" src="images/desktop/image-fisheye.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-deep-earth.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-night-arcade.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-soccer-team.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-grid.jpg">
+        </div>
+        <div class="main__creationsImg-underDiv" id="main__creationsImg-underDiv">
+            <img class="main__creationsImg-image" src="../images/desktop/image-from-above.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-pocket-borealis.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-curiosity.jpg">
+            <img class="main__creationsImg-image" src="../images/desktop/image-fisheye.jpg">
         </div>
     </main>
     <footer>
         <div class="footer__container-left">
-            <img class="footer__logo" src="images/logo.svg">
+            <img class="footer__logo" src="../images/logo.svg">
             <ul class="footer__menu-ul">
                 <li class="footer__menu-ul-li"><a href="#About" class="footer__menu-ul-li-a">About</a></li>
                 <li class="footer__menu-ul-li"><a href="#Careers" class="footer__menu-ul-li-a">Careers</a></li>
@@ -84,5 +86,7 @@
     <!--ionicons-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--Javascript file-->
+    <script src="code.js"></script>
 </body>
 </html>
