@@ -13,3 +13,4 @@ document.getElementById("button").onclick = function () {
         document.getElementById("button__text").style.color = "hsl(0, 0%, 100%)";
     }
 }
+
