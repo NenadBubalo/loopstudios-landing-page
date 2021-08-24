@@ -14,3 +14,13 @@ document.getElementById("button").onclick = function () {
     }
 }
 
+document.getElementById("burger_menu").onclick = function () {
+    document.getElementById("mobile_menu").style.display = "flex";
+}
+
+document.getElementById("icon_close").onclick = function () {
+    document.getElementById("mobile_menu").style.display = "none";
+}
+
+
+

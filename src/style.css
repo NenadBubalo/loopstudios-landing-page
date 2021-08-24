@@ -272,11 +272,15 @@ ion-icon {
         display: flex;
         float: right;
         margin-top: 3rem;
-        margin-right: 5rem;
+        margin-right: 7rem;
     }
 
     .header__logomenu-mobile-burgerMenu:hover {
         cursor: pointer;
+    }
+
+    .header__logomenu-mobile-burgerMenu-icon {
+        width: 2.5rem;
     }
 
     .header__title {
