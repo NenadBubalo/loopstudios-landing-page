@@ -29,9 +29,7 @@ Users should be able to:
 
 ### Links
 
-**not published yet**
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub-Pages](https://nenadbubalo.github.io/loopstudios-landing-page/)
 
 ## My process
 
