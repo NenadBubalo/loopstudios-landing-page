@@ -54,7 +54,7 @@ Here I used a little JavaScript for the first time. I learned in this project ho
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Instagram - [@nenad_bubalo](https://www.instagram.com/nenad_bubalo)
+- Frontend Mentor - [@NenadBubalo](https://www.frontendmentor.io/profile/NenadBubalo)
+- Twitter - [@nenad_bubalo](https://www.twitter.com/nenad_bubalo)
 
