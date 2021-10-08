@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub-Pages](https://nenadbubalo.github.io/loopstudios-landing-page/)
+- Solution URL: [Netlify-Pages](https://ecstatic-austin-4e7fc5.netlify.app/)
 
 ## My process
 
